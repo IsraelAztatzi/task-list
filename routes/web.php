@@ -38,9 +38,9 @@ Route::post('/tasks', function(Request $request) {
     ->with('success', 'Task created successfully');
 })->name('tasks.store');
 
-// Route::get('/ddd', function () {
-//     return 'Hello World';
-// })->name('hello');
+Route::get('/ddd', function () {
+    return 'Hello World';
+})->name('hello');
 
 // Route::get('/hallo', function () {
 //     return redirect()->route('hello');
