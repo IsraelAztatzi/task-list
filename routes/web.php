@@ -51,6 +51,6 @@ Route::get('/hallo', function () {
 //     return 'hello ' . $name . '!';
 // });
 
-// Route::fallback(function () {
-//     return view('alternativePage');
-// });
+Route::fallback(function () {
+    return view('alternativePage');
+});
