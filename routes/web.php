@@ -43,7 +43,7 @@ Route::get('/ddd', function () {
 })->name('hello');
 
 Route::get('/hallo', function () {
-    return redirect()->route('hello');
+    return redirect()->route('hello world');
 });
 
 // Route::get('/greet/{name}', function ($name
