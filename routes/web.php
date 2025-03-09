@@ -42,9 +42,9 @@ Route::get('/ddd', function () {
     return 'Hello World';
 })->name('hello');
 
-// Route::get('/hallo', function () {
-//     return redirect()->route('hello');
-// });
+Route::get('/hallo', function () {
+    return redirect()->route('hello');
+});
 
 // Route::get('/greet/{name}', function ($name
 // ) {
